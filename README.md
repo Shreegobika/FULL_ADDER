@@ -1,11 +1,11 @@
 
-# aim
+# AIM
 To simulate and synthesis full adder using vivado 2023.2
 
-# apparatus
+# APPARATUS
 vivado 2023
 
-# procedure
+# PROCEDURE
 STEP:1 Start the vivado software, Select and Name the New project.
 
 STEP:2 Select the device family, device, package and speed.
@@ -27,7 +27,8 @@ FULL_ADDER
 # Circuit Diagram
 ![image](https://github.com/RESMIRNAIR/FULL_ADDER/assets/154305926/418e00aa-ed19-4ab3-a413-bae9575bff0e)
 ![image](https://github.com/RESMIRNAIR/FULL_ADDER/assets/154305926/0c26fe47-d78c-43dd-ac0d-804e427a3bbc)
-# verilog code
+# VERILOG CODE
+```
 module FA(a,b,cin,sum,cout); input a,b,cin;
 
 output sum,cout;
@@ -45,8 +46,9 @@ xor g4(sum,w1,cin);
 or g5(cout,w2,w3);
 
 endmodule
-# output
+```
+# OUTPUT
 ![image](https://github.com/Shreegobika/FULL_ADDER/assets/160569525/d4cccf70-dca1-47a6-86ab-8501661c29f9)
-# result
+# RESULT
 Thus the simulatation and synthesis of full adder using vivado was successfully executed and verified.
 
